@@ -1,0 +1,59 @@
+body{
+  background-color: black;
+  background-size: cover;
+}
+@media(max-width:991px) {
+  .sidebar{
+      background-color: black;
+      backdrop-filter: blur(10px);
+  }
+}
+.main-nav{
+display: flex;
+
+} 
+.main-nav .d-none.d-lg-block ul{
+list-style: none;
+display: flex;
+margin-left: 170px;
+padding: 10px;
+}
+.main-nav .d-none.d-lg-block ul .nav-alpha.mx-2 .nav-alpha{
+  text-decoration: none;
+  color: white;
+  padding: 10px 25px;
+}
+.main-nav .d-none.d-lg-block ul .nav-alpha.mx-2 .nav-alpha:hover{
+color: red;
+}
+.main-nav .navbar-logo.fs-4, .offcanvas-title{
+  color: red;
+  font-size: large;
+  font-weight: bold;
+  text-decoration: none;
+}
+.btn.btn-outline-success{
+background-color: red;
+border: none;
+color: white;
+}
+.content .row.justify-content-center.align-items-center .main-images{
+border-radius:100%
+}
+.image-curve .top-background{
+background-image: url(https://th.bing.com/th/id/OIP.18qrutikFcWfYbDWutvlGQHaDO?rs=1&pid=ImgDetMain);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+height: 40vh;
+filter: blur(5px);
+
+}
+.image-curve .bottom-background{
+background-color: rgb(248, 4, 4);
+height: 60vh;
+
+}
+.image-curve .bottom-background .main-images{
+border-radius: 100%;
+}

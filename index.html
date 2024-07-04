@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Food Web</title>
+</head>
+<body class="vh-100">
+    <!--Nav Bar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+        <div class="container">
+         <div class="main-nav">
+                <a class="navbar-logo fs-4" href="#">FOODWAY</a>
+             <section class="d-none d-lg-block">
+                        <ul>
+                            <li class="nav-alpha mx-2">
+                                <a class="nav-alpha" aria-current="page" href="#home">Home</a>
+                            </li>
+                            <li class="nav-alpha mx-2">
+                                <a class="nav-alpha" href="#community">Community</a>
+                            </li>
+                            <li class="nav-alpha mx-2">
+                                <a class="nav-alpha" href="#services">Services</a>
+                                </li>
+                            <li class="nav-alpha mx-2">
+                                <a class="nav-alpha" href="#about">About</a>
+                            </li>
+                            <li class="nav-alpha mx-2">
+                                <a class="nav-alpha" href="#contact">Contact</a>
+                            </li>
+                            <!--Log In/Sign Up Button-->
+                            <div class="d-flex justify-content-center align-items-center gap-3">
+                                <a href="#signup" class="text-white text-decoration-none px-3 py-1 rounded-2" style="background-color: red;">Sign Up</a>
+                            </div>
+                        </ul>
+                </section>
+         </div>
+
+          <!--Toggler-->
+          <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" a ria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!--Side Bar-->
+          <div class="sidebar offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+           <!--Sidebar Header-->
+            <div class="offcanvas-header text-white border-bottom">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">FOODWAY</h5>
+              <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <!--Sidebar Body-->
+            <div class="offcanvas-body d-flex flex-column p-4">
+              <ul class="navbar-nav justify-content-center align-items-center flex-grow-1 pe-3 text-dark">
+                <li class="nav-item mx-2">
+                  <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="#community">Community</a>
+                  </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item mx-2">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+              </ul>
+              <!--Log In/Sign Up Button-->
+              <div class="d-flex justify-content-center align-items-center gap-3">
+                <a href="#signup" class="text-white text-decoration-none px-3 py-1 rounded-2" style="background-color: red;">Sign Up</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!--Grid-->
+      <div class="container overflow-hidden">
+        <div class="row gy-5">
+          <div class="col-md-6">
+            <div class="p-3 border-0 text-white align-items-center justify-content-center">
+                <span class="fw-bold">Discover</span>
+                <p class="fw-bold fs-3">Asian Cuisine</p>
+                <div class="col-5">
+                    <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Nigeria" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+          <div class="col-6">
+            <div class="p-3 border-0 d-flex justify-content-center align-items-center">
+                <img src="https://th.bing.com/th/id/OIP.DsQvKlb80W6GgVw4kdlmqAHaHa?rs=1&pid=ImgDetMain" class="img-fluid float-end d-none d-lg-block" width="250" height="250" alt="Image I">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="p-3 border-0 text-white justify-content-center">
+                <p class="fs-3 fw-bold">ASIAN CUISINE SIGNATURE</p>
+                <p class="fs-3 fw-bold">FOOD RESTAURANT</p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="p-3 border-0 text-white">
+                <div class="col-11 align-items-center justify-content-center">
+                    <p class="text-center"><span class="fw-bold">"Discover Culinary Magic at Foodway!</span>. Our elegant eatery invites you to savor authentic Chinese flavors. From delicate dim sum to aromatic Peking duck, every dish is a symphony of taste.</p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <main class="content">
+        <h2 class="text-white text-center">GREAT FOOD</h2>
+        <p class="text-white text-center">We have a wide range of menu, all to offer you a little bit of that slice of heaven on your taste buds</p>
+          <div class="container pt-4">
+            <div class="row justify-content-center align-items-center">
+              <div class="col-lg-3 d-flex flex-column justify-content-center align-items-center">
+                  <img src="https://th.bing.com/th/id/R.e6f22ea1a2bc0ecddcbe462b09555a27?rik=mclFhDFRSg42Ww&pid=ImgRaw&r=0" height="150" class="main-images" width="200" alt="Rice Image">
+                  <span class="image-id text-center text-white pt-2">Rice</span>
+                </div>
+              <div class="col-lg-3 d-flex flex-column justify-content-center align-items-center">
+                  <img src="https://th.bing.com/th/id/R.a6e07e2058feae020f65cf7e0a2aba22?rik=5TPUAroj4lRZ%2fA&pid=ImgRaw&r=0" class="main-images" height="150" width="200" alt="Meat Image">
+                  <span class="image-id text-center text-white pt-2">Meat</span>
+              </div>
+              <div class="col-lg-3 d-flex flex-column justify-content-center align-items-center">
+                <img src="https://th.bing.com/th/id/OIP.2aN17ehPc3MoFFiVpujv4gHaK_?rs=1&pid=ImgDetMain" class="main-images" height="150" width="200" alt="Potatoe Image">
+                <span class="image-id text-center text-white pt-2">Potatoes</span>
+              </div>
+            </div>
+          </div>
+    </main>
+    <section class="list pt-5">
+      <!--Menu Heading-->
+      <h2 class="text-white text-center">Traditional Asian Food</h2>
+      <p class="text-white text-center">Our diverse delicacies......</p>
+      <div class="list d-flex justify-content-center align-items-center">
+          <div class="row justify-content-center align-items-center">
+            <!-- 1st Menu Grid-->
+            <div class="col-lg-6">
+              <div class="card border-0">
+                <div class="card-body text-white d-flex align-items-center pb-0" style="background-color: black; justify-content: space-between;">
+                  <ul class="list-unstyled">
+                      <li><h5 class="card-title">Sushi Delight</h5></li>
+                      <li><p class="card-text"> Freshly rolled sushi with a variety of fillings</p></li>
+                  </ul>
+                  <span class="fw-bold mx-4">$50</span>
+                </div>
+                <!--2nd List-->
+                <div class="card-body text-white d-flex align-items-center pb-0" style="background-color: black; justify-content: space-between;">
+                  <ul class="list-unstyled">
+                      <li><h5 class="card-title">Kung Pao Chicken</h5></li>
+                      <li><p class="card-text">Spicy stir-fried chicken with peanuts.</p></li>
+                  </ul>
+                  <span class="fw-bold mx-4">$50</span>
+                </div>
+                <!--3rd List-->
+                <div class="card-body text-white d-flex align-items-center pb-0" style="background-color: black; justify-content: space-between;">
+                  <ul class="list-unstyled">
+                      <li><h5 class="card-title">Pad Thai</h5></li>
+                      <li><p class="card-text">Classic Thai noodle dish with shrimp or tofu.</p></li>
+                  </ul>
+                  <span class="fw-bold mx-4">$50</span>
+                </div>
+                <!--4th List-->
+                <div class="card-body text-white d-flex align-items-center pb-0" style="background-color: black; justify-content: space-between;">
+                  <ul class="list-unstyled">
+                      <li><h5 class="card-title">Bibimbap</h5></li>
+                      <li><p class="card-text">Rice bowl topped with veggies, egg, and gochujang.</p></li>
+                  </ul>
+                  <span class="fw-bold mx-4">$50</span>
+                </div>
+                <!--5th List-->
+                <div class="card-body text-white d-flex align-items-center pb-0" style="background-color: black; justify-content: space-between;">
+                  <ul class="list-unstyled">
+                      <li><h5 class="card-title">Dim Sum Platter</h5></li>
+                      <li><p class="card-text">Assorted dumplings and buns</p></li>
+                  </ul>
+                  <span class="fw-bold mx-4">$50</span>
+                </div>
+              </div>
+            </div>
+            <!--2nd Column Menu List-->
+            <div class="col-lg-6">
+              <div class="card border-0">
+                <div class="card-body text-white d-flex align-items-center pb-0" style="background-color: black; justify-content: space-between;">
+                  <ul class="list-unstyled">
+                      <li><h5 class="card-title">Green Curry</h5></li>
+                      <li><p class="card-text">Fragrant Thai curry with coconut milk and veggies.</p></li>
+                  </ul>
+                  <span class="fw-bold mx-4">$50</span>
+                </div>
+                <!--2nd List-->
+                <div class="card-body text-white d-flex align-items-center pb-0" style="background-color: black; justify-content: space-between;">
+                  <ul class="list-unstyled">
+                      <li><h5 class="card-title">Beef Bulgogi</h5></li>
+                      <li><p class="card-text">Korean marinated beef served with rice.</p></li>
+                  </ul>
+                  <span class="fw-bold mx-4">$50</span>
+                </div>
+                <!--3rd List-->
+                <div class="card-body text-white d-flex align-items-center pb-0" style="background-color: black; justify-content: space-between;">
+                  <ul class="list-unstyled">
+                      <li><h5 class="card-title">Miso Ramen</h5></li>
+                      <li><p class="card-text">Japanese noodle soup with miso broth.</p></li>
+                  </ul>
+                  <span class="fw-bold mx-4">$50</span>
+                </div>
+                <!--4th List-->
+                <div class="card-body text-white d-flex align-items-center pb-0" style="background-color: black; justify-content: space-between;">
+                  <ul class="list-unstyled">
+                      <li><h5 class="card-title">Spring Rolls</h5></li>
+                      <li><p class="card-text">Crispy rolls filled with veggies or shrimp.</p></li>
+                  </ul>
+                  <span class="fw-bold mx-4 text-end">$50</span>
+                </div>
+                <!--5th List-->
+                <div class="card-body text-white d-flex align-items-center pb-0" style="background-color: black; justify-content: space-between;">
+                  <ul class="list-unstyled">
+                      <li><h5 class="card-title">Matcha Tiramisu</h5></li>
+                      <li><p class="card-text">Green tea-infused dessert to satisfy you.</p></li>
+                  </ul>
+                  <span class="fw-bold mx-4">$50</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Buy Now Button-->
+        <div class="d-flex justify-content-center align-items-center gap-3 pt-5 pb-5">
+          <a href="#buynow" class="text-white text-decoration-none px-3 py-1 rounded-2" style="background-color: red;">Buy Now</a>
+        </div>
+    </section>
+    <!--Info Section-->
+    <div class="container pb-5">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-lg-5 text-start text-white ">
+            <h1>FoodWay Restaurant</h1>
+            <p>FoodWay is a charming eatery nestled in the heart of Ore, Ondo State. We serve delectable Asian and local dishes, blending flavors from across the world. Come savor our culinary delights!</p>
+        </div>
+        <div class="col-lg-5 d-none d-lg-block">
+          <div class="container overflow-hidden">
+            <div class="row gy-2 mx-2 justify-content-center align-items-center" style="background-color: black;">
+              <div class="col-6">
+                <div class="p-0 border-0">
+                 <img src="https://th.bing.com/th/id/R.37c84f6257e083536c996b544a2a24c8?rik=DCKPz7Qc%2bWmyag&pid=ImgRaw&r=0" alt="Ore Image" height="150" width="200">
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="p-0 border-0">
+                  <img src="https://static.africa-press.net/uganda/sites/34/2021/08/img-611a782e6cf46.jpg" alt="Ore Image II" height="150" width="200">
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="p-0 border-0">
+                  <img src="https://th.bing.com/th/id/OIP.nAoM9G1iv-Ypslclfvv9UAHaE8?w=972&h=648&rs=1&pid=ImgDetMain" alt="Ore Image III" height="150" width="200" >
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="p-0 border-0">
+                  <img src="https://www.nairaland.com/attachments/18133432_img2516_jpeg_jpeg07c9b3c6d32f027e2c17c62e86f85312" alt="Ore Image IV" height="150" width="200">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="image-curve pt-5 d-none d-lg-block pb-5">
+         <div class="container">
+          <div class="row">
+            <div class="col-12 top-background d-flex align-items-center justify-content-center"></div>
+            <div class="col-12  bottom-background d-flex align-items-center justify-content-center">
+              <div class="container pt-4">
+                <div class="row justify-content-center align-items-center">
+                  <div class="col-lg-3 d-flex flex-column justify-content-center align-items-center">
+                      <img src="https://th.bing.com/th/id/R.e6f22ea1a2bc0ecddcbe462b09555a27?rik=mclFhDFRSg42Ww&pid=ImgRaw&r=0" height="150" class="main-images" width="200" alt="Rice Image">
+                      
+                      <main class="pt-4 text-center text-white justify-content-center">
+                        <h3>Olamilekan Aremu</h3>
+                        <span>President - Sage Group</span>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                      </main>
+                    </div>
+                  <div class="col-lg-3 d-flex flex-column justify-content-center align-items-center">
+                      <img src="https://th.bing.com/th/id/R.a6e07e2058feae020f65cf7e0a2aba22?rik=5TPUAroj4lRZ%2fA&pid=ImgRaw&r=0" class="main-images" height="150" width="200" alt="Meat Image">
+                      <main class=" pt-4 text-center text-white justify-content-center">
+                        <h3>Olamilekan Aremu</h3>
+                        <span>President - Sage Group</span>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                      </main>
+                  </div>
+                  <div class="col-lg-3 d-flex flex-column justify-content-center align-items-center">
+                    <img src="https://th.bing.com/th/id/OIP.2aN17ehPc3MoFFiVpujv4gHaK_?rs=1&pid=ImgDetMain" class="main-images" height="150" width="200" alt="Potatoe Image">
+                    <main class=" pt-4 text-center text-white justify-content-center">
+                      <h3>Olamilekan Aremu</h3>
+                      <span>President - Sage Group</span>
+                      <p>Lorem ipsum dolor sit amet consectetur.</p>
+                    </main>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+         </div>
+
+    </section>
+    <footer class="pt-5 text-center pb-1">
+      <span style="color: red; font-size: 20px;" class="fw-bold">FOODWAY</span>
+      <div class="container text-white pt-5">
+        <div class="row" style="justify-content: space-between;">
+          <div class="col-lg-2">
+              <h4>Contact Info</h4>
+              <span>Sage Constellations</span>
+              <p>29, Sage Empire</p>
+          </div>
+          <div class="col-lg-2">
+            <h4>Reservation</h4>
+            <span>Sage Constellations</span>
+            <p>29, Sage Empire</p>
+          </div>
+          <div class="col-lg-2">
+            <h4>Working Hours</h4>
+            <span>Sage Constellations</span>
+            <p>29, Sage Empire</p>
+        </div>
+        </div>
+      </div>
+     </footer>
+    <hr style="color: white; height: 3px;">
+          <div class="text-center text-white">
+            <p>&commat;Sage Constellations. Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+          </div>
+          
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
